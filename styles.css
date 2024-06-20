@@ -1,0 +1,52 @@
+/* Estilos gerais */
+
+* {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do header */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+/* Estilos do main */
+
+section {
+    padding: 80px 0;
+}
+
+main h1 {
+    padding: 50px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Estilos do footer */
+
+footer {
+    color: #fff;
+    margin-bottom: -160px;
+}
+
